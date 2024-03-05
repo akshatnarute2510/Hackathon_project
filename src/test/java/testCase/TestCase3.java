@@ -21,7 +21,6 @@ public class TestCase3 extends base{
 	 @Test(priority=0)
 	 public void choose_giftcard_validate() throws FileNotFoundException, IOException, InterruptedException{
 		gift_carrd= new giftcard_page(driver);
-	 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 	 	gift_carrd.homeButtonGiftCard_click().click();
 	 	String search =excel.getCellData("Sheet1", 2, 1);
 	 	gift_carrd. homeButtonGiftCard_click().sendKeys(search);
@@ -47,14 +46,14 @@ public class TestCase3 extends base{
 	 	String sname = excel.getCellData("Sheet4", 4, 1);
 	 	gift_carrd.Name_sender().sendKeys(sname);
 	 	
-	 	Thread.sleep(5000);
+//	 	Thread.sleep(5000);
 	 	
 	 	String semail = excel.getCellData("Sheet4", 5, 1);
 	 	gift_carrd.sender_Email().sendKeys(semail);
 	 	
 	 	String saddress = excel.getCellData("Sheet4", 6, 1);
 	 	gift_carrd.Sender_Address().sendKeys(saddress);
-	 	Thread.sleep(5000);
+//	 	Thread.sleep(5000);
 	 	
 	 	
 	 	
@@ -72,7 +71,7 @@ public class TestCase3 extends base{
 	 	
 
 	 	gift_carrd.Confirm_button().click();
-	 	Thread.sleep(5000);
+//	 	Thread.sleep(5000);
 	 	
 	 	String AlertMessage= gift_carrd.AlertMessage();
 	 	System.out.println(AlertMessage);
@@ -85,7 +84,6 @@ public class TestCase3 extends base{
 		 }
 		 @Test(priority=1)
 	 	public void checkout_validation() throws FileNotFoundException, IOException {
-			// base.getlogger().info("checkout validation");
 			 String rremail = excel.getCellData("Sheet4", 10, 1);
 			 gift_carrd.receiver_Email().clear();
 			 gift_carrd.receiver_Email().sendKeys(rremail);

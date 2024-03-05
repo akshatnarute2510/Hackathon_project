@@ -12,3 +12,17 @@
 16:05:19.306 [TestNG-tests-1] INFO  testCase.TestCase3 - started logs
 16:05:56.542 [TestNG-tests-1] INFO  testCase.TestCase - started logs
 16:06:38.049 [TestNG-tests-1] INFO  testCase.TestCase2 - started logs
+14:20:47.884 [main] INFO  testCase.TestCase - Passedsearch_functionality
+14:20:53.362 [main] INFO  testCase.TestCase - Passedfilter_functionality
+14:20:56.219 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+14:20:57.867 [main] INFO  testCase.TestCase - Passedcheck_and_print
+14:21:13.999 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+14:22:27.449 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+14:22:29.539 [main] INFO  testCase.TestCase3 - Passedcheckout_validation
+15:03:12.802 [main] INFO  testCase.TestCase - Passedsearch_functionality
+15:03:18.272 [main] INFO  testCase.TestCase - Passedfilter_functionality
+15:03:20.524 [main] INFO  testCase.TestCase - Passedcheck_sortfuction
+15:03:22.241 [main] INFO  testCase.TestCase - Passedcheck_and_print
+15:03:39.542 [main] INFO  testCase.TestCase2 - Passedsubmenu_printcheck
+15:04:36.957 [main] INFO  testCase.TestCase3 - Passedchoose_giftcard_validate
+15:04:39.192 [main] INFO  testCase.TestCase3 - Passedcheckout_validation

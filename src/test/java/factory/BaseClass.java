@@ -46,9 +46,7 @@ public class BaseClass
 	     p.load(file);
 	     return p;
     }
-    
-
-	
+    	
 	public static Logger getlogger1()
 	{
 		logger=LogManager.getLogger();

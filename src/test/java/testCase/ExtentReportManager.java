@@ -35,7 +35,7 @@ public class ExtentReportManager extends base implements ITestListener{
  
 		extent.setSystemInfo("Computer Name","localhost");
 		extent.setSystemInfo("Environment","QEA");
-		extent.setSystemInfo("Tester Name","Vibin VR");
+		extent.setSystemInfo("Tester Name","Akshat");
 		extent.setSystemInfo("OS","Windows11");
 		extent.setSystemInfo("Browser Name","Chrome Browser");
 	}

@@ -43,7 +43,6 @@ public class TestCase extends base{
 	
 	@Test(priority=1)
 	public void filter_functionality() throws InterruptedException, FileNotFoundException, IOException {
-		//base.getlogger().info("Checking filter functionality");
 		search_result.category_hover(); 
 		search_result.kids_filters();
 		search_result.instock_filters();
@@ -63,7 +62,7 @@ public class TestCase extends base{
 		List<WebElement> prices=search_result.prices();
 		for(int i=1;i<5;i++) {
 			
-			String price=prices.get(i).getAttribute("content");
+			String price=prices.get(i-1).getAttribute("content");
 			String nprice=prices.get(i).getAttribute("content");
 			int  pricee= Integer.parseInt(price);
 			int  nextprice = Integer.parseInt(nprice);
@@ -80,7 +79,6 @@ public class TestCase extends base{
 	
 	@Test(priority=3)
 	public void check_and_print() throws FileNotFoundException, IOException {
-		//base.getlogger().info("Checking check and print");
 		List<WebElement> Details = search_result.check_print_results();
 		int r=1;
 		for(int i=0;i<3;i++) {
